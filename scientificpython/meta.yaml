@@ -1,0 +1,21 @@
+package:
+  name: scientificpython
+  version: 2.9.2
+
+source:
+  fn: ScientificPython-2.9.2.tar.gz
+  url: https://sourcesup.renater.fr/frs/download.php/4153/ScientificPython-2.9.2.tar.gz
+  md5: 5fb53f29126316ae2628e74e629312d5
+
+requirements:
+  build:
+    - numpy
+    - libnetcdf
+  run:
+    - python
+    - numpy
+    - libnetcdf
+
+about:
+  home: https://bitbucket.org/khinsen/scientificpython
+  license: CeCILL-C (http://cecill.info/licences/Licence_CeCILL-C_V1-en.txt)
